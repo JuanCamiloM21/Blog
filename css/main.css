@@ -155,6 +155,7 @@ nav .profile-link a {
   padding: 10px 15px;
   font-size: 12px;
   font-weight: 500;
+  width: 60px;
 }
 .blogs-post-container .post-container {
   display: inline-block;
@@ -185,7 +186,6 @@ footer p {
 }
 .blogpost-img-container img {
   width: 100%;
-  height: 500px;
 }
 .blogpost-main-container {
   padding: 0 50px 40px;
@@ -229,17 +229,16 @@ footer p {
 .contact-left {
   /* display: grid; */
   grid-area: contact-left;
-  margin-left: 430px;
+  margin-left: 20%;
 }
 .contact-right {
-  /* display: grid; */
   grid-area: contact-right;
 }
-/* .grid-container-contacto {
+.grid-container-contacto {
   max-width: 980px;
   margin: auto;
   text-align: start;
-} */
+}
 .contact-main-container .contact-left,
 .contact-right {
   margin-top: 45px;
